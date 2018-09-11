@@ -1,0 +1,9 @@
+
+
+syn与wait和notify与notifyAll方法相结合可以实现等待/通知模式,类ReentrantLock也可以实现同样的功能,但需要借助condition对象!
+
+
+Object.wait()       === Condition.await()
+Object.wait(long)   === Condition.await(long,unit);
+Object.notify()     === Condition.signal();
+Object.notifyAll()  === Condition.signalAll();

@@ -1,0 +1,11 @@
+
+
+*使用wait/notify实现线程间通信
+*生产者/消费者模式的实现
+*方法join的使用
+*ThreadLocal类的使用
+
+
+wait使线程停止运行,而notify使停止的线程继续运行.
+
+

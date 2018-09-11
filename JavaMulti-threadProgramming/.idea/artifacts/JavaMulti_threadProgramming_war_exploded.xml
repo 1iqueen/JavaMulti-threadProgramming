@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaMulti-threadProgramming:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavaMulti_threadProgramming_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaMulti-threadProgramming/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaMulti-threadProgramming" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
